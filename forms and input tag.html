@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning - forms</title>
+</head>
+<body>
+    <h1>Internship Program hiring For AI / ML</h1>
+    <!-- get request is so simple
+     post requset is happen when whe we have so much data -->
+    <form action="post">
+        <div>
+
+        <!-- simplest input tag -->
+         <!-- we also add labels  -->
+         <label for="username">Enter your username</label>
+         <input type="password" name="password" placeholder="Enter your password">
+        </div>
+        <!-- Radio buttons are used when you want the user to select only one option from a set of choices. -->
+        <div>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+    </div>
+
+    <div>
+        <!-- Checkboxes allow the user to select multiple options from a set. -->
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Subscribe to newsletter</label>
+    </div>
+    <div>
+        <!-- The textarea element is used when you need multiline text input from the user. This is particularly useful for comments, reviews, or any other type of input where the length is unpredictable. -->
+         <label for="Enter your comment">Enter your comment</label>
+        <br><textarea name="comment" rows="4" cols="50"></textarea>
+
+        <!--  Select Element -->
+          <div>
+            <select name="fruits">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="cherry">Cherry</option>
+          </select>
+          </div>
+    </div>
+          
+          
+
+          
+    </form>
+    
+</body>
+</html>
