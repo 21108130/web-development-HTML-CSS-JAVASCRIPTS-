@@ -1,0 +1,34 @@
+## HTML 
+HTML entities are special codes used in 
+HTML to represent characters that are either reserved in HTML or not easily typed on a keyboard. 
+They ensure that the characters display correctly in a web browser
+They start with an ampersand (&) and end with a semicolon (;)
+
+# Reserved Characters:
+Some characters have special meanings in HTML. For example, the less-than sign < is used to start a tag. 
+To display a < in your content, you need to use an HTML entity so the browser knows you mean the character itself, not the start of a tag.
+
+## Non-Keyboard Characters: 
+There are characters that you might not find on your keyboard, like special symbols (©, ™) or accented letters (é, ñ). 
+HTML entities allow you to include these characters in your web pages
+
+##How to Use HTML Entities
+Syntax: HTML entities start with & and end with ;. For example:
+
+< becomes &lt;
+> becomes &gt;
+& becomes &amp;
+© becomes &copy;
+é becomes &eacute;
+
+##The quotation tag in HTML is used to display quotations. 
+There are two main tags for this purpose: <blockquote> and <q>.
+##1. <blockquote> Tag
+The <blockquote> tag is used for longer quotes or block-level quotations
+##2. <q> Tag
+The <q> tag is used for shorter, inline quotations. It typically surrounds the quoted text with quotation marks
+
+##When to Use Them
+<blockquote>: Use this tag for longer passages or when you want the quote to stand out on its own.
+<q>: Use this tag for shorter quotes that are part of a sentence.
+
